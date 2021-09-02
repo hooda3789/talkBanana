@@ -5,36 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Translator</title>
-    <style>
-        #input-text{
-            width: 90%;
-            height: 10vh;
-            margin: 1rem;
-            padding: 1rem;
-        }
-        #translate-btn{
-            margin: 1rem;
-        }
-        #translate-text{
-            border: 1px solid yellow;
-            width: 90%;
-            height: 10vh;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="banana.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Talk Bananaaa</h1>
+    <h1 id="top-heading">Talk Bananaaa</h1>
+    <section>
 
-    <!-- <h4>Enter your text </h4> -->
+    <div class="container-center">
+    <h4>Enter your text here</h4>
     <textarea id="input-text" placeholder="Write your text here...."></textarea>
 
     <button id="translate-btn">Translate</button>
-    <p>Your translated text is here</p>
-    <textarea id="translate-text" placeholder="Write your text here...."></textarea>
+    <h4>Your translated text is here</h4>
+    <textarea id="translate-text"></textarea>
 
+</div>
+</section>
 
+<footer id="myfooter">
+    <div class="container-center">
+    <h5>About</h5>
+    <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
+</div>
+</footer>
 
 
     <script src="banana.js"></script>

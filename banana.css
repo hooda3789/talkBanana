@@ -1,0 +1,51 @@
+#input-text{
+    width: 90%;
+    height: 20vh;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 5px;
+}
+#translate-btn{
+    margin: 1rem;
+    padding: 8px;
+    background-color: #F2C94C;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#translate-btn:hover{
+    border: 2px solid #F2C94C;
+    color: black;
+    background-color: rgb(244, 255, 182);
+}
+
+#translate-text{
+    border: 1px solid black;
+    width: 90%;
+    height: 20vh;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 3px;
+}
+
+#top-heading{
+    display: block;
+    background-color: #F2C94C;
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#myfooter{
+    background-color: #F2C94C;
+    padding: 1rem 1rem;
+    text-align: center;
+    color: rgb(22, 22, 22);
+    border-top-right-radius: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
